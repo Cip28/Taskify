@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #282c34;
+}
+nav{
+  background-color: #61dafb;
+  color: #282c34;
+  padding:2rem 4rem;
+  font-family: 'Mochiy Pop One', sans-serif;
+  letter-spacing: 2px;
+}
+main{
+  margin:6rem auto;
+  display:flex;
+  justify-content: space-around;
+}
+.input__field{
+  background-color: rgb(234, 255, 179);  
+  width:400px;
+  height:300px;
+  border-radius: 5px;
+}
+
+.input__title{
+  border-bottom:4px solid black;
+  padding:2rem 1rem;
+  font-family: 'Mochiy Pop One', sans-serif;
+  text-align: center;
+  word-spacing: 5px;
+}
+form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type=text]{
+  margin:4rem 0;
+  padding:10px;
+  font-size: 16px;
+}
+input[type=text]:focus{
+  box-shadow: 0 0 10px 1500px rgba(0,0,0,0.3);
+  outline:none;
+}
+.input__btn{
+  margin-left:2px;
+  padding:11px;
+  cursor: pointer;
+  background-color: #282c34;
+  color:#fff;
+  transition:.3s;
+  border-radius: 2px;
+}
+.input__btn:hover{
+  background-color: rgb(4, 18, 127);
+  transition:.3s;
+}
+.todolist{
+  border-radius: 2px;
+  background-color: rgb(234, 255, 179);  
+  list-style: none;
+  flex-wrap: wrap;
+  width: 50%;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.todo{
+  padding:1rem;
+   display: flex;
+   justify-content: space-between;
+   padding:20px;
+   margin:20px;
+   border-radius:7px;
+   font-size: 18px;
+   background-color: #61dafb;
+   flex:1;
+}
+
+.icons{
+  margin:10px;
+  cursor: pointer;
+  transition:.2s;
+}
+.icons:hover{
+  cursor: pointer;
+  transition:.2s;
+  background-color: #61dafbc9;
+
+}
+.s {
+  text-decoration: line-through;
+}
+.todo__editMode{
+  outline:none;
+  padding:10px;
+}
+.exp{
+  text-align: center;
+  margin:4rem 0;
+  font-size:20px;
+  font-family: 'Mochiy Pop One', sans-serif;
+} 
